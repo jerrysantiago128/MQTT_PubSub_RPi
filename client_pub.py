@@ -3,14 +3,13 @@
 //the latest stable version is available in the Python Package Index (PyPi) and can be installed using
 
 pip install paho-mqtt
+or 
 
 //To obtain the full code, including examples and tests, you can clone the git repository:
 
 git clone https://github.com/eclipse/paho.mqtt.python
 //Once you have the code, it can be installed from your repository as well:
 
-cd paho.mqtt.python
-pip install -e .
 '''
 import paho.mqtt.client as mqtt
 import time
